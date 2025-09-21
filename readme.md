@@ -37,7 +37,7 @@ The extension requests:
 
 ## Usage
 
-1. Go to https://psdiepenbeek.smartschool.be/planner/
+1. Go to https://**{your school}**.smartschool.be/planner/
 2. The extension automatically starts monitoring
 3. When a test is found, you'll get:
    - A browser notification
