@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Smartschool Test Notifier",
+  "version": "1.0",
+  "description": "Provides notifications for tests and quizzes on Smartschool",
+  "permissions": [
+    "notifications",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://psdiepenbeek.smartschool.be/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://psdiepenbeek.smartschool.be/planner/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Smartschool Test Notifier"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
