@@ -18,14 +18,11 @@ Create a new folder for the extension and download these files:
 - `content.js`
 - `background.js`
 - `popup.html`
-
-### Step 2: Add icons (optional)
-Add icon files (16x16, 48x48, 128x128 pixels):
 - `icon16.png`
 - `icon48.png`
 - `icon128.png`
 
-### Step 3: Install in Chrome/Edge
+### Step 3: Install in Chrome/Edge or other chromium based browsers
 
 1. Open Chrome/Edge and go to `chrome://extensions/` (or `edge://extensions/`)
 2. Turn on "Developer mode" (top right)
